@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VRBIC News</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="Images/icon.png" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <img src="Images/Logo.png" alt="VRBIC News" class="logo">
+      </a>
+
+      <button id="mobile-menu" class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Tech</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO BANNER / TOP STORY -->
+  <section class="top-banner">
+    <div class="banner-overlay">
+      <div class="banner-text">
+        <span class="kicker">Top Story</span>
+        <h1>
+          <a href="https://www.manilatimes.net/2025/10/18/news/inter-agency-teams-activated-for-ici-probe/2202840" target="_blank">
+            Inter-agency teams activated for ICI probe
+          </a>
+        </h1>
+        <p class="byline">By The Manila Times • Oct 18, 2025 • Nation</p>
+        <p class="excerpt">
+          The Independent Commission for Infrastructure (ICI) has started forming inter-agency teams to investigate hundreds of flood control projects nationwide.
+        </p>
+        <a class="read-more" href="https://www.manilatimes.net/2025/10/18/news/inter-agency-teams-activated-for-ici-probe/2202840" target="_blank">Read more →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+    <div class="main-col">
+      <!-- Latest -->
+      <section id="latest" class="section-block">
+        <h2 class="section-title">Latest News</h2>
+        <div class="cards-grid">
+          <article class="card">
+            <img src="Images/floodrisk.avif" alt="">
+            <div class="card-body">
+              <h3><a href="https://www.abs-cbn.com/news/nation/2025/11/4/ph-ranks-first-in-2025-world-risk-index-on-vulnerability-to-flooding-1644" target="_blank">PH ranks first in 2025 World Risk Index on vulnerability to flooding</a></h3>
+              <p class="byline">By ABS-CBN News • Nov 04, 2025</p>
+              <p class="card-excerpt">The Philippines tops the 2025 World Risk Index due to high exposure to floods and natural disasters.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="Images/typhoon.avif" alt="">
+            <div class="card-body">
+              <h3><a href="https://www.abs-cbn.com/news/regions/2025/11/4/at-least-5-dead-thousands-stranded-in-central-philippines-due-to-tino-1535/" target="_blank">At least 26 reported dead, thousands stranded in central Philippines due to 'Tino'</a></h3>
+              <p class="byline">By ABS-CBN News • Nov 04, 2025</p>
+              <p class="card-excerpt">Typhoon ‘Tino’ leaves at least 26 dead and thousands stranded across the Visayas.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="Images/Remulla.webp" alt="">
+            <div class="card-body">
+              <h3><a href="https://www.abs-cbn.com/news/nation/2025/11/4/ici-to-seek-probe-vs-ex-dpwh-chief-bonoan-over-flood-project-in-plaridel-1039" target="_blank">Remulla says Romualdez may face raps over Co’s appointment; Escudero 'under investigation'</a></h3>
+              <p class="byline">By ABS-CBN News • Nov 04, 2025</p>
+              <p class="card-excerpt">Justice chief says Speaker Romualdez may face charges as ICI probes key officials.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="Images/PhAirforce.jpg" alt="">
+            <div class="card-body">
+              <h3><a href="https://www.gmanetwork.com/news/topstories/nation/964852/philippine-air-force-completes-four-year-inspection-of-c-295-aircraft/story/?top_picks&order=3" target="_blank">Philippine Air Force completes four-year inspection of C-295 aircraft</a></h3>
+              <p class="byline">By GMA News • Nov 04, 2025</p>
+              <p class="card-excerpt">The Air Force finishes a four-year inspection of its C-295 aircraft fleet.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Tech Section -->
+      <section id="tech" class="section-block">
+        <br>
+        <h2 class="section-title">Technology</h2>
+        <div class="cards-grid">
+          <article class="card small">
+            <img src="Images/cyberattack.webp" alt="">
+            <div class="card-body">
+              <h3><a href="https://www.philstar.com/headlines/2025/11/03/2484441/dict-warns-public-possible-cyberattack-november-5" target="_blank">DICT warns public of possible cyberattack on November 5</a></h3>
+              <p class="byline">By PhilStar Global • Nov 3, 2025</p>
+            </div>
+          </article>
+
+          <article class="card small">
+            <img src="Images/NVIDIA.avif" alt="">
+            <div class="card-body">
+              <h3><a href="https://edition.cnn.com/2025/10/28/tech/nvidia-gtc-ai-conference-jensen-huang" target="_blank">NVIDIA unveils AI roadmap shaping the future of computing</a></h3>
+              <p class="byline">By CNN • Oct 29, 2025</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar-col">
+      <!-- WEATHER SECTION -->
+      <div class="widget weather-widget">
+        <img src="Images/WeatherUpdate.jpeg" alt="Weather Banner" class="weather-banner">
+        <ul class="weather-list">
+          <li><a href="https://www.pagasa.dost.gov.ph/" target="_blank">PAGASA: Scattered rains expected in Metro Manila and Luzon</a></li>
+          <li><a href="https://www.gmanetwork.com/news/scitech/weather/964873/typhoon-tino-strength-areas-pagasa/story/" target="_blank">GMA Weather: Tino maintains strength, Signal No. 4 up in 5 areas</a></li>
+          <li><a href="https://news.abs-cbn.com/weather" target="_blank">ABS-CBN Weather Center: Thunderstorms likely in southern Luzon</a></li>
+        </ul>
+      </div>
+
+      <!-- EDITOR'S PICK SECTION -->
+      <div class="widget">
+        <h3 class="section-title">Editor's Pick</h3>
+        <ul class="editors-pick">
+          <li><a href="https://www.abs-cbn.com/sports/basketball/2025/11/4/la-salle-s-marasigan-slapped-with-1-game-suspension-to-miss-rivalry-match-vs-ateneo-1539" target="_blank">UAAP: La Salle's Marasigan suspended, to miss rivalry match vs Ateneo</a></li>
+          <li><a href="https://www.abs-cbn.com/entertainment/showbiz/celebrities/2025/11/4/eliana-atienza-to-sister-emman-atienza-come-back-i-miss-you-1840" target="_blank">Eliana Atienza to sister Emman: ‘Come back, I miss you’</a></li>
+          <li><a href="https://www.abs-cbn.com/news/nation/2025/11/4/dswd-needs-more-volunteers-for-tino-relief-efforts-1517" target="_blank">DSWD needs more volunteers for Tino relief efforts</a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <img src="Images/logo.png" alt="VRBIC News" class="footer-logo">
+        <p>&copy; 2025 VRBIC News. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <nav class="footer-nav">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
